@@ -1,0 +1,115 @@
+.projects > div:last-child{
+    gap: 2vw;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.projects > div:last-child > div:last-child{/*--------------------------------------------*/
+    margin-bottom: 6vh;
+}
+.projects > div:last-child > div{
+    width: 300px;
+    width: 25vw;
+    display: flex;
+    margin-top: 1.5vh;
+    flex-direction: column;
+}
+.projects > div:last-child > div div{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.projects > div:last-child > div div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.2s ease-out;
+}
+.projects > div:last-child > div div img:hover{
+    transform: scale(1.1);
+}
+
+.projects > div:last-child > div h1{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 2.5vh 0 0.2vh 5%;
+}
+
+.projects > div:last-child > div p{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20px;
+    margin: 0 0 2vh 5%;
+    color: rgba(214, 214, 214, 0.7);
+}
+.projects > div:last-child > div p span{
+    color: #51f1ff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.projects > div:last-child > div a{
+    gap: 5px;
+    width: 80%;
+    margin: 0 10%;
+    display: flex;
+    padding: 2vh 0;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    border-radius: 10px;
+    align-items: center;
+    transition: all 0.5s;
+    justify-content: center;
+    background: #d9a7c7;  
+    background: -webkit-linear-gradient(to bottom, #ffffff, #f0dbff);  
+    background: linear-gradient(to bottom, #ffffff, #f0dbff); 
+    border: 2px solid rgba(167, 168, 217, 0.02);
+}
+
+.projects > div:last-child > div a ion-icon{
+    color: #11152b;
+}
+
+.projects > div:last-child > div a span{
+    color: #11152b
+}
+
+@media (max-width: 480px){
+    .projects > div:last-child{
+        gap: 5vh;
+        width: 100%;
+        flex-direction: column;
+    }
+    .projects > div:last-child > div:last-child{/*--------------------------------------------*/
+        margin-bottom: 0vh;
+    }
+    .projects > div:last-child > div{
+        width: 100%;
+        display: flex;
+        margin-top: 0vh;
+        flex-direction: column;
+    }
+    .projects > div:last-child > div div{
+        width: 100%;
+        height: 200px;
+        border-radius: 15px;
+    }
+    
+    
+    .projects > div:last-child > div p{
+        font-size: 14px;
+    }
+    
+    .projects > div:last-child > div a{
+        padding: 1.8vh 0;
+    }
+    
+
+}
+
+
+

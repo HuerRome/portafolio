@@ -1,0 +1,100 @@
+.contact > h2{
+    color: #fafafa;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.contact .form{
+    width: 100%;
+    margin-top: 3vh;
+}
+.contact .form .form__container{
+    gap: 4%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact .form .form__input{
+    width: 48%;
+    cursor: pointer;
+    font-size: 15px;
+    color: #fafafa;
+    padding: 2vh 2vw;
+    font-weight: 700;
+    margin-bottom: 3.5%;
+    border-radius: 15px;
+    background: rgba(255,255,255,0);
+    border:1px solid rgba(255,255,255,0.1);
+}
+
+.contact .form .form__input:focus, .contact .form .form__input:active{
+    outline: 0 none;
+    border-color: #52dee5;
+    /*box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075)inset, 0 0 8px rgba(82, 222, 229,0.6);*/
+}
+
+.contact .form .form__input--message{
+    width: 100%;
+    height: 20vh;
+}
+
+.contact .form .form__cta{
+    color: #000;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 12px;
+    padding: 1.8vh 4.2vw;
+    background: #d9a7c7;  
+    background: -webkit-linear-gradient(to bottom, #ffffff, #f0dbff);  
+    background: linear-gradient(to bottom, #ffffff, #f0dbff); 
+    border: 2px solid rgba(167, 168, 217, 0.02);
+}
+
+@media (max-width: 480px){
+    .contact > h2{
+        font-size: 16px;
+        font-weight: 700;
+    }
+    
+    .contact .form{
+        width: 100%;
+        margin-top: 3vh;
+    }
+    .contact .form .form__container{
+        gap: 1.8vh;
+        width: 100%;
+    }
+    
+    .contact .form .form__input{
+        width: 100%;
+        font-size: 14px;
+        padding: 1.8vh 4vw;
+        font-weight: 400;
+        margin-bottom: 3.5%;
+        border-radius: 10px;
+    }
+    
+    .contact .form .form__input:focus, .contact .form .form__input:active{
+        box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075)inset, 0 0 8px rgba(82, 222, 229,0.6);
+    }
+    
+    .contact .form .form__input--message{
+        width: 100%;
+        height: 20vh;
+    }
+    
+    .contact .form .form__cta{
+        font-size: 16px;
+        font-weight: 400;
+        border-radius: 15px;
+        padding: 1.6vh 0;
+        margin: 0 2vw;
+        width: 100%;
+    }
+
+}
+
+
+
