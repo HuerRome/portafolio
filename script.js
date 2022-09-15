@@ -6,42 +6,22 @@ button.addEventListener('click',()=>{
     menu.classList.toggle("active");
 })
 
-//--------------botones--------------
-/*box1 = document.querySelector(".about");
-box2 = document.querySelector(".resume");
-box3 = document.querySelector(".projects");
-box4 = document.querySelector(".contact");
+//----------------load-----------------------
+window.addEventListener('scroll', function()  {
+  let elements = document.getElementsByClassName('scroll-content');
+  let screenSize = window.innerHeight;
+  
+        for(var i = 0; i < elements.length; i++) {
+        var element = elements[i];
 
-button1 = document.querySelector(".about1");
-button2 = document.querySelector(".resume1");
-button3 = document.querySelector(".projects1");
-button4 = document.querySelector(".contact1");
+        if(element.getBoundingClientRect().top < screenSize) {
+          element.classList.add('visible');
+        } else {
+          element.classList.remove('visible');
+        }
 
-button1.addEventListener('click',()=>{
-    box1.classList.add("active1");
-    box2.classList.add("active2");
-    box3.classList.add("active2");
-    box4.classList.add("active2");
-})
-
-button2.addEventListener('click',()=>{
-  box2.classList.add("active1");
-  box1.classList.add("active2");
-  box3.classList.add("active2");
-  box4.classList.add("active2");
-})
-button3.addEventListener('click',()=>{
-  box3.classList.add("active1");
-  box2.classList.add("active2");
-  box1.classList.add("active2");
-  box4.classList.add("active2");
-})
-button4.addEventListener('click',()=>{
-  box4.classList.add("active1");
-  box2.classList.add("active2");
-  box3.classList.add("active2");
-  box1.classList.add("active2");
-})*/
+      }
+});
 
 //-----------------Menu-----------------
 // Get the container element
@@ -97,60 +77,3 @@ btns[3].addEventListener("click", function (){
 
 
 
-/*
-btns[0].addEventListener("click", function (){
-  if (about.className != 'active2'){
-    about.classList.add("active2");
-    resume.className.replace(" active2", "");
-    projects.className.replace(" active2", "");
-    contact.className.replace(" active2", "");
-  }else{
-    about.className.replace("active2", "");
-    resume.className.replace(" active2", "");
-    projects.className.replace(" active2", "");
-    contact.className.replace(" active2", "");
-  }
-})
-
-btns[1].addEventListener("click", function (){
-  if (resume.className != 'active2'){
-    resume.classList.add("active2");
-    about.className.replace(" active2", "");
-    projects.className.replace(" active2", "");
-    contact.className.replace(" active2", "");
-  }else{
-    resume.className.replace("active2", "");
-    about.className.replace(" active2", "");
-    projects.className.replace(" active2", "");
-    contact.className.replace(" active2", "");
-  }
-})
-
-btns[2].addEventListener("click", function (){
-  if (projects.className != 'active2'){
-    projects.classList.add("active2");
-    resume.className.replace(" active2", "");
-    about.className.replace(" active2", "");
-    contact.className.replace(" active2", "");
-  }else{
-    projects.className.replace("active2", "");
-    resume.className.replace(" active2", "");
-    about.className.replace(" active2", "");
-    contact.className.replace(" active2", "");
-  }
-})
-
-btns[3].addEventListener("click", function (){
-  if (contact.className != 'active2'){
-    contact.classList.add("active2");
-    resume.className.replace(" active2", "");
-    projects.className.replace(" active2", "");
-    about.className.replace(" active2", "");
-  }else{
-    contact.className.replace("active2", "");
-    resume.className.replace(" active2", "");
-    projects.className.replace(" active2", "");
-    about.className.replace(" active2", "");
-  }
-})
-*/

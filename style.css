@@ -26,8 +26,8 @@ html{
 body{
     width: 100%;
     background: radial-gradient(circle at 100% 0%, rgb(31, 56, 122) 0%, rgb(3, 0, 54) 40%, rgb(1, 0, 48) 60%);
-    background: #0f0f0f;
     background: #03000e;
+    background: #0f0f0f;
 }
 body::-webkit-scrollbar {
     width: 12px;         
@@ -484,12 +484,25 @@ ul{
         flex-direction: column;
         margin-bottom: 3vh;
         border-radius: 15px;
-        box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.2);
         gap: 5%;
         padding: 3vh 3%;
         background: radial-gradient(circle at 0% 100%, #2a2d3e 0%,#33374c 20%, #363a50 40%, #3e435d 100%);
+        background: rgba(255,255,255, 0.05);
+        background: radial-gradient(circle at 0% 100%, #3f4046 0%,#414349 20%, #3e3f42 40%, #48494f 100%);
+        background: radial-gradient(circle at 0% 100%, #303033 20%, #38393a 40%, #3b3c41 100%);
+        opacity: 0;
+        transform: translate(-10vh, 0vh);
+        transition: all 1s;
     }
-  
+    .skill > div > .scroll-content2{
+        transform: translate(10vh, 0vh);
+    }
+    .skill > div > div.visible {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+
     .skill > div > div img{
         color: #ffdb70;
         width: 44px;
