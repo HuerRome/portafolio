@@ -3,13 +3,14 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 .projects > div:last-child > div:last-child{/*--------------------------------------------*/
     margin-bottom: 6vh;
 }
 .projects > div:last-child > div{
     width: 300px;
-    width: 25vw;
+    width: 28vw;
     display: flex;
     margin-top: 1.5vh;
     flex-direction: column;
@@ -65,8 +66,8 @@
     transition: all 0.5s;
     justify-content: center;
     background: #fff6fc;  
-    background: -webkit-linear-gradient(to bottom, #ffffff, #f0dbff);  
-    background: linear-gradient(to bottom, #ffffff, #e2d5ec); 
+    background: -webkit-linear-gradient(to bottom, #ffffff, #e2d8ea);  
+    background: linear-gradient(to bottom, #ffffff, #e2d8ea); 
     border: 2px solid rgba(167, 168, 217, 0.02);
 }
 

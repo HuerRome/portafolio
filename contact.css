@@ -46,9 +46,9 @@
     font-weight: 400;
     border-radius: 12px;
     padding: 1.8vh 4.2vw;
-    background: #d9a7c7;  
-    background: -webkit-linear-gradient(to bottom, #ffffff, #f0dbff);  
-    background: linear-gradient(to bottom, #ffffff, #f0dbff); 
+    background: #fff6fc;  
+    background: -webkit-linear-gradient(to bottom, #ffffff, #e2d8ea);  
+    background: linear-gradient(to bottom, #ffffff, #e2d8ea); 
     border: 2px solid rgba(167, 168, 217, 0.02);
 }
 

@@ -137,11 +137,14 @@
     color: #52dee5;
     font-size: 16px;
     font-weight: 400;
-    padding: 2vh 3vw;
+    padding: 2.5vh 4vw;
     border-radius: 10px;
     justify-content: center; 
+    background: #323233;
     background: rgba(255, 255, 255, 0.05);
-    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    border-left: 1px solid rgba(255, 255, 255, 0.08);
+    background: radial-gradient(circle at 0% 100%, #303033 20%, #38393a 40%, #3b3c41 100%);
 }
 .resume > div:last-child a ion-icon{
     color: #52dee5;
@@ -287,9 +290,9 @@
         border-radius: 18px;
         margin: 0vh 5vw;
         justify-content: center;
-        background: rgba(255, 255, 255, 0.05);
         box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.15);
-        border-left: 1px solid rgba(255, 255, 255, 0.4);
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        border-left: 1px solid rgba(255, 255, 255, 0.1);
     }
     .resume > div:last-child a ion-icon{
         color: #52dee5;
