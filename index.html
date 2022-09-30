@@ -229,13 +229,15 @@
                     <h1>Contact</h1>
                     <div class="div"></div>
                     <h2>Contact Form</h2>
-                    <form action="mailto:anttttt475@gmail.com" class="form" method="post" enctype="text/plain">
+                    <form action="https://formsubmit.co/anttttt475@gmail.com" method="POST" class="form" id="contact-form">
                         <div class="form__container">
-                            <input type="text" class="form__input" placeholder="Name: " name="name">
-                            <input type="email" class="form__input" placeholder="Email: " name="_replyto">
-                            <textarea class="form__input form__input--message" placeholder="Message: " name="message"></textarea>
+                            <input type="text" class="form__input" placeholder="Name: " name="name" value="" required>
+                            <input type="email" class="form__input" placeholder="Email: " name="email" value="" required>
+                            <textarea class="form__input form__input--message" placeholder="Message: " name="message" required></textarea>
                             
-                            <input type="submit" value="Submit" class="form__cta">
+                            <input type="submit" value="SEND" class="form__cta" id="submit" name="submit">
+                            <!--<input type="hidden" name="_next" value="http://localhost:8000">-->
+                            <input type="hidden" name="_captcha" value="false">
                         </div>
                     </form>
                 </div>
