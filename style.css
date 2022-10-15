@@ -34,17 +34,15 @@ body::-webkit-scrollbar {
     width: 12px;         
 }
   
-body::-webkit-scrollbar-track {
-  background: #161d4a;  
-  background: rgba(255, 255, 255, 0.051);   
+body::-webkit-scrollbar-track {  
+    background: #1a1919;   
 }
 
 body::-webkit-scrollbar-thumb {
   background-color: #3B4264;  
   background-image: linear-gradient(to top,#8e6de7,#5dbeff);
-  border-radius: 20px;       
-  border: 3px solid #161d4a;  
-  border: 3px solid #212121;
+  border-radius: 20px;        
+  border: 3px solid #1a1919;
 }
 
 a{text-decoration: none;}
@@ -292,7 +290,6 @@ ul{
     font-weight: bold;
     margin-bottom: 8vh;
 }
-
 .technologies > div::-webkit-scrollbar {
     width: 6px;
 }
