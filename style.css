@@ -431,15 +431,7 @@ ul{
         line-height: 26px;
         line-height: 0;
         margin-bottom: 3vh;
-        opacity: 0;
-        transform: translate(-10vh, 0vh);
-        transition: all 1s;
     }
-    .aboutme .h12.visible{
-        opacity: 1;
-        transform: translate(0, 0);
-    }
-
     .aboutme p{
         font-size: 14px;
         line-height: 22px;

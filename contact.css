@@ -1,10 +1,73 @@
 .contact > h2{
     color: #fafafa;
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
-.contact .form{
+.contact > h3{
+    font-weight: 500;
+    color: rgba(214, 214, 214, 0.8);
+}
+.contact > div:last-child{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.contact > div:last-child a{
+    gap: 5px;
+    width: 25vw;
+    padding: 2.8vh 0;
+    display: flex;
+    color: #fafafa;
+    margin-top: 5vh;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    color: #fafafa;
+}
+.contact > div:last-child .whatsapp{
+    color: #fafafa;
+    background: #25D366;
+}
+.contact > div:last-child .whatsapp ion-icon{
+    color: #fafafa;
+}
+
+.contact > div:last-child .gmail{
+    color: #fafafa;
+    background: #c71610;
+}
+.contact > div:last-child .gmail ion-icon{
+    color: #fafafa;
+}
+.contact > div:last-child .github{
+    background: #333;
+}
+.contact > div:last-child .github ion-icon{
+    
+}
+.contact > div:last-child .linkedin{
+    background: #0077b5;
+}
+.contact > div:last-child .insta{
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+.contact > div:last-child .insta ion-icon{
+}
+.contact > div:last-child .twitter{
+    background: #1DA1F2;
+}
+.contact > div:last-child .twitter ion-icon{
+    
+}
+
+/*.contact .form{
     width: 100%;
     margin-top: 3vh;
 }
@@ -31,7 +94,6 @@
 .contact .form .form__input:focus, .contact .form .form__input:active{
     outline: 0 none;
     border-color: #52dee5;
-    /*box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075)inset, 0 0 8px rgba(82, 222, 229,0.6);*/
 }
 
 .contact .form .form__input--message{
@@ -51,15 +113,34 @@
     background: -webkit-linear-gradient(to bottom, #ffffff, #e2d8ea);  
     background: linear-gradient(to bottom, #ffffff, #e2d8ea); 
     border: 2px solid rgba(167, 168, 217, 0.02);
-}
+}*/
 
 @media (max-width: 480px){
     .contact > h2{
         font-size: 16px;
         font-weight: 700;
     }
+    .contact > h3{
+        font-size: 16px;
+    }
+
+    .contact > div:last-child{
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 2vh 0 0 0;
+    }
+    .contact > div:last-child a{
+        gap: 4px;
+        width: 100%;
+        padding: 2vh 0;
+        margin-top: 2vh;
+        border-radius: 10px;
+        align-items: center;
+        justify-content: center;
+        color: #fafafa;
+    }
     
-    .contact .form{
+    /*.contact .form{
         width: 100%;
         margin-top: 3vh;
     }
@@ -93,7 +174,7 @@
         padding: 1.8vh 0;
         margin: 0 2vw;
         width: 100%;
-    }
+    }*/
 
 }
 
