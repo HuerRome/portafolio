@@ -80,7 +80,7 @@
         width: 100%;
         flex-direction: column;
     }
-    .projects > div:last-child > div:last-child{/*--------------------------------------------*/
+    .projects > div:last-child > div:last-child{
         margin-bottom: 0vh;
     }
     .projects > div:last-child > div{

@@ -447,7 +447,6 @@ ul{
         bottom: 0;
         top: auto;
         width: 100%;
-        
         margin: auto;
         display: flex;
         position: fixed;
@@ -519,6 +518,7 @@ ul{
         flex-direction: column;
         align-items: center;
         text-align: center;
+        padding: 0 1vw;
     }
 
     /*----------------------circulos----------------------*/
