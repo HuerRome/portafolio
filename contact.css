@@ -13,12 +13,13 @@
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 2vh;
-    justify-content: space-around;
+    gap: 4%;
+    padding: 0 2%;
 }
 .contact > div:last-child a{
     gap: 5px;
-    width: 25vw;
-    padding: 2.8vh 0;
+    width: 48%;
+    padding: 20px 0;
     display: flex;
     margin-top: 5vh;
     border-radius: 10px;
@@ -26,6 +27,7 @@
     justify-content: center;
     color: #fafafa;
 }
+
 .contact > div:last-child .whatsapp{
     background: #25D366;
 }

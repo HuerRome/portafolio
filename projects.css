@@ -5,8 +5,8 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-.projects > div:last-child > div:last-child{/*--------------------------------------------*/
-    margin-bottom: 4vh;
+.projects > div:last-child > div:last-child{
+    margin-bottom: 2vh;
 }
 .projects > div:last-child > div{
     width: 300px;
@@ -72,6 +72,18 @@
 
 .projects > div:last-child > div a span{
     color: #11152b
+}
+
+@media (max-width: 900px) and (min-width: 480px){
+    .projects > div:last-child > div{
+        width: 90%;
+    }
+    .projects > div:last-child > div div{
+        height: 300px;
+    }
+    .projects > div:last-child > div:last-child{
+        margin-bottom: 0vh;
+    }
 }
 
 @media (max-width: 480px){

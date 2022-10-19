@@ -309,6 +309,270 @@ ul{
     background: #55cde8;
 }
 
+@media (max-width: 1250px) and (min-width: 1000px){
+    .presentation2 > div:last-child ul li:first-child a{
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width: 1000px) and (min-width: 480px){
+    .container{
+        width: 100%;
+        padding: 2vh 3vw;
+        padding-bottom: calc(2vh + 55px);
+    }
+    .container2{
+        flex-direction: column;
+    }
+    .presentation{
+        width: 100%;
+        border-radius: 15px;
+        position: relative;
+    }
+    .presentation2{
+        border-radius: 20px;   
+    }
+    .presentation2 > div:first-child{
+        flex-direction: row;
+        padding: 1.5vh 4vw;
+        justify-content:start;
+        gap: 4vw;
+    }
+    .presentation2 > div:first-child img{
+        width: 20%;
+        border-radius: 20%;
+        height: 20%;
+    }
+    .presentation2 > div:first-child div h1{
+        font-size: 17px;
+        margin-bottom: 1.5vh;
+    }
+    .presentation2 > div:first-child div p{
+        padding: 3px 3vw;
+        background: rgba(255, 255, 255, 0.1);
+        margin-top: 4px;
+        font-weight: 300;
+        border-radius: 8px;
+        font-size: 11px;
+        width: auto;
+    }
+    .presentation2 > div:last-child{
+        padding: 0 4vw;
+        height: 0px;
+        overflow: hidden;       
+    }
+    .presentation2 > div:last-child ul{
+        padding: 2.5vh 0 0 0;
+    }
+    .presentation2 > div:last-child ul li{
+        gap: 5%;
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .presentation2 > div:last-child ul li div{
+        font-size: 11px;
+    }
+    .presentation2 > div:last-child ul li ion-icon{
+        padding: 7px;
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .presentation2 > div:last-child > div{
+        display: flex;
+        justify-content:flex-start;
+        width: 100%;
+        margin: 5vh 15% 5vh 15%;
+        margin: 0;
+        padding: 2.2vh 0 2.2vh 2vw;
+        gap: 3%;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+    } 
+    .presentation2 > div:last-child > div ion-icon{
+        color: #d6d6d6;
+        size: 18px;
+        font-weight: 400;
+    }
+
+    .presentation > ion-icon{
+        display: flex;
+        color: #52dee5;
+        font-size: 14px;
+        position: absolute;
+        font-weight: 400;
+        top: 0;
+        left: auto;
+        right: 0;
+        bottom: auto;
+        border-radius: 0 20px 0 20px;
+        border-left: 1px solid rgba(255, 255, 255, 0.1);
+        padding: 9px 9px;
+        margin: auto;
+        background: rgba(255, 255, 255, 0.05);
+        z-index: 100;
+    }
+    /*------------------about--------------------*/
+    .about,.resume,.projects, .contact{
+        width: 100%;
+        height: auto;
+        margin-top: 1vh;
+        padding: 5vh 3.3vw;
+        border-radius: 20px;
+    } 
+    .aboutme .h11{
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 20px;
+    }
+    .aboutme > div{
+        width: 32px;
+        height: 3px;
+        border-radius: 2px;
+        margin: 1.5vh 0 4vh 0;
+    }
+    .aboutme .h12{
+        color: #d6d6d6;
+        font-size: 16px;
+        line-height: 26px;
+        line-height: 0;
+        margin-bottom: 3vh;
+    }
+    .aboutme p{
+        font-size: 14px;
+        line-height: 22px;
+        color: #d6d6d6;
+        font-weight: 300;
+        margin-top: 2vh;
+    }
+
+    .boxes .menu{
+        left: 0;
+        right: 0;
+        gap: 3vw;
+        bottom: 0;
+        top: auto;
+        width: 100%;
+        margin: auto;
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        backdrop-filter: blur(8px);
+        border-radius: 12px 12px 0 0;
+        background: rgba(255, 255, 255, 0.05);
+    }
+    .boxes .menu a{
+        padding: 19px 0;
+        font-size: 11px;
+        color: rgba(214, 214, 214, 0.8);
+    }
+
+    /*-----------------------------skills----------------------------*/
+    .skill{
+        width: 100%;
+    }
+    .skill > h1{
+        margin: 3vh 0;
+        font-size: 18px;
+    }
+    .skill > div{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 3%;
+    }
+    .skill > div > div{
+        width: 48%;
+        flex-direction: column;
+        margin-bottom: 3vh;
+        border-radius: 15px;
+        box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.2);
+        gap: 5%;
+        padding: 3vh 3%;
+        opacity: 0;
+        transform: translate(-10vh, 0vh);
+        transition: all 1s;
+    }
+    .skill > div > .scroll-content2{
+        transform: translate(10vh, 0vh);
+    }
+    .skill > div > div.visible {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+
+    .skill > div > div img{
+        color: #ffdb70;
+        width: 44px;
+        height: 44px;
+    }
+    .skill > div > div p span{
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 35px;
+    }
+    .skill > div > div p{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0 1vw;
+    }
+
+    /*----------------------circulos----------------------*/
+    .skill > div > div > div{
+        top: 0;
+        left: 0;
+        gap: 6px;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        z-index: 1000;
+        display: flex;
+        padding: 3% 4%;
+        position: absolute;
+    }
+    .skill > div > div > div span{
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        border: 1px solid rgba(255, 255, 255, 0.4);
+    }
+    
+    /*-----------------------technologies----------------------*/
+    .technologies{
+        margin-bottom: 0vh;
+    }
+    .technologies h1{
+        font-size: 18px;
+        margin: 1vh 0 6vh 0;
+    }
+    .technologies > div{
+        gap: 10vw;
+        width: 88%;
+        margin: 0 6%;
+    }
+    .technologies div div{
+        gap: 1.4vh;
+    }
+    .technologies div div img{
+        width: 110px;
+    }
+    .technologies div div span{
+        font-size: 16px;
+        font-weight: normal;
+        margin-bottom: 5vh;
+    }
+    
+    .technologies > div::-webkit-scrollbar-track {
+        margin: 0 2vw;
+    }
+
+}
 
 @media (max-width: 480px){
     .container{
@@ -571,80 +835,5 @@ ul{
     }
 
 }
-
-
-
-
-
-
-
-/*
-.aboutme1{
-    width: 100%;
-    margin-top: 50px;
-    border-radius: 10px;
-    background: #0d0d0d;
-    font-family: "Fira Code",Poppins ,Arial, Helvetica, sans-serif;
-}
-
-.aboutme1 > div:first-child{
-    display: flex;
-    padding: 10px 10px;
-    align-items: center;
-    justify-content: space-between;
-}
-.aboutme1 > div:first-child p{
-    font-size: 15px;
-    line-height: 20px;
-    font-weight: 600;
-    color: #c5c8d4;
-}
-.aboutme1 > div:first-child ion-icon{
-    color: #868ca0;
-}
-.aboutme1 > div:first-child > div{
-    gap: 10px;
-    display: flex;
-    align-items: center;
-}
-
-
-.aboutme1 > div:last-child > div{
-    gap: 2.2vh;
-    display: flex;
-    padding: 0 20px;
-    flex-direction: column;
-}
-.aboutme1 > div:last-child h1{
-    font-size: 15px;
-    font-weight: 400;
-    color: #7a99ad;
-    line-height: 20px;
-    margin: 2vh 0 2vh 20px;
-    font-family: "Fira Code",Poppins ,Arial, Helvetica, sans-serif;
-}
-
-.aboutme1 > div:last-child h1 span{
-    color: coral;
-}
-
-.aboutme1 > div:last-child p{
-    font-size: 15px;
-    line-height: 20px;
-    font-weight: 400;
-    font-family: "Fira Code",Poppins ,Arial, Helvetica, sans-serif;
-}
-.aboutme1 > div:last-child p span{
-    color: #7a99ad;
-}
-.aboutme1 > div:last-child p .p{
-    color: coral;  
-}
-
-*/
-
-
-
-
 
 

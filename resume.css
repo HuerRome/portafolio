@@ -152,6 +152,17 @@
     font-weight: 400;
 }
 
+@media (max-width: 900px) and (min-width: 480px){
+    .resume > div:last-child{
+        margin: 8vh 0 4vh 0;
+        display: flex;
+        justify-content: center;
+    }
+    .resume > div:last-child a{
+        padding: 2.5vh 15vw;
+    }
+}
+
 
 @media (max-width: 480px){
     .resume .menu{
